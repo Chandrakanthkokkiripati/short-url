@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Ubuntu&display=swap");
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Mooli", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.url-card-container {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+h1{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.url-card-container div {
+  margin: 10px;
+}
+
+.url-card-container input {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.url-card-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-card-container div button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(119, 119, 248);
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#error{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
